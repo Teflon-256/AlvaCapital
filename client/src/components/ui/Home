@@ -1,0 +1,11 @@
+import HeroHome from "@/components/ui/HeroHome";
+
+export default function Home() {
+  return (
+    <div>
+      <HeroHome />
+      <h1>Dashboard</h1>
+      {/* Other home content */}
+    </div>
+  );
+}
