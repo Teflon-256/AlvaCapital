@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeroBackgrounds: React.FC = () => {
+const HeroLanding: React.FC = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
       <div
@@ -21,17 +21,8 @@ const HeroBackgrounds: React.FC = () => {
           borderRadius: '12px',
         }}
       />
-      <div
-        style={{
-          backgroundImage: 'url("/attached-assets/generated-images/Futuristic_stock_exchange_wallpaper_8045bc0a.png")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '300px',
-          borderRadius: '12px',
-        }}
-      />
     </div>
   );
 };
 
-export default HeroBackgrounds;
+export default HeroLanding;
